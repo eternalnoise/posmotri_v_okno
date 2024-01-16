@@ -65,12 +65,14 @@ ol {
   flex-wrap: nowrap;
   justify-content: center;
   row-gap: 16px;
+  object-fit: cover;
 }
 
 .result__video-container {
   width: 711px;
   height: 386px;
   position: relative;
+  margin-bottom: 16px;
 }
 
 .result__video {
@@ -175,7 +177,7 @@ fieldset {
 
 .search-form__checkbox-list {
   display: flex;
-  gap: 15px;
+  gap: 19px;
 }
 
 .search-form__pseudo-checkbox {
@@ -278,6 +280,7 @@ align-self: flex-end;
 .content__video-card-thumbnail {
   width: 194px;
   height: 103px;
+  object-fit: cover;
 }
 
 .more-button {
