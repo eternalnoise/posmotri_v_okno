@@ -86,7 +86,9 @@ ol {
 }
 
 .search-form__fieldset {
-
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
 }
 
 fieldset {
@@ -240,31 +242,6 @@ align-self: flex-end;
   position: relative;
 }
 
-.preloader {
-
-}
-
-.preloader-template {
-
-}
-
-.preloader-chasing-squares {
-
-
-}
-
-.square {
-
-}
-
-.cards-list-item-template {
-
-}
-
-.content__list-item {
-
-}
-
 .content__list-item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -272,18 +249,12 @@ align-self: flex-end;
 .content__card-link {
   text-decoration: none;
   color: #fff;
-
 }
 
 .content__video-card {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-
-}
-
-.content__video-card-description-container {
-
 }
 
 .content__video-card-title {
@@ -309,25 +280,9 @@ align-self: flex-end;
   height: 103px;
 }
 
-.more-button-template {
-
-}
-
 .more-button {
   width: 399px;
   height: 34px;
-}
-
-.error {
-
-}
-
-.error-template {
-
-}
-
-.error__title {
-
 }
 
 .search-form__label:hover .search-form__label-text,
