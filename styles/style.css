@@ -117,7 +117,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0em;
 }
  
 .search-form__label-text:first-of-type {
@@ -134,7 +133,6 @@ ol {
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0em;
   background-color: #1B1919;
   cursor: text;
   appearance: none;
@@ -188,7 +186,6 @@ ol {
   font-weight: 700;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0em;
   text-align: center;
   background-color: #1B1919;
   cursor: pointer;
@@ -222,7 +219,6 @@ ol {
   font-weight: 700;
   font-size: 75px;
   line-height: 70px;
-  letter-spacing: 0em;
   text-align: left;
   text-transform: uppercase; 
 }
